@@ -1,6 +1,9 @@
 ## W05D01 HW
 
 ### useContext
-* Create an app that will display same nav , but the nav links will be changed based on if the user is logged in, or if the user is logged out.
-* If the user is logged out: then the navigation will be display: Login and SignUp and the main body will show the form to login or sign up.
-* If the user is logged in: then the navigation will be display: MyProfile and Logout and the main body will be display profile information.
+* Create a login page which contains navbar component, About us component, Login component and Home component.
+* The navbar will be always rendered.
+* The navbar will allow the user to navigate between About us and Home components (using Router).
+* In the login form when the user press login it should take him to the home page and change the state of the user (whether he is logged in or not) in the navbar.
+* In the home page you should show that the user had logged in.
+* Using useContext send the state of the user to the nav, and Home component.
